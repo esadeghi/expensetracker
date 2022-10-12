@@ -42,15 +42,15 @@ function App() {
 
   const addExpenseHandler = expense =>
   {
-    console.log(expense);
-    console.log(expenses);
+    // console.log(expense);
+    // console.log(expenses);
     setExpense((prevState) =>
     ([
       ...prevState,
       expense
     ]));
-    console.log(expenses);
-    console.log("OK");
+    // console.log(expenses);
+    // console.log("OK");
   }
 
   return (
